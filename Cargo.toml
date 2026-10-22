@@ -15,7 +15,7 @@ keywords = [
     "function",
     "education",
 ]
-categories = ["mathematics", "education"]
+categories = ["mathematics", "algorithms"]
 
 [dependencies]
 

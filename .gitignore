@@ -1,0 +1,23 @@
+# 编译产物
+/target
+
+# 本地文档与打包产物
+/doc
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 调试与性能采集产物
+*.profraw
+*.profdata
+perf.data*
+
+# 环境变量与密钥（避免误提交 crates.io token 等）
+.env
+.env.*
+*.local

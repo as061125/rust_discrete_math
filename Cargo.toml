@@ -1,0 +1,24 @@
+[package]
+name = "discrete_math"
+version = "0.2.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Axiomatic discrete mathematics in Rust: finite sets, binary relations and functions"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/as061125/rust_discrete_math"
+documentation = "https://docs.rs/discrete_math"
+keywords = [
+    "discrete-mathematics",
+    "set-theory",
+    "relation",
+    "function",
+    "education",
+]
+categories = ["mathematics", "education"]
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
